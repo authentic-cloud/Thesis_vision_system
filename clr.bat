@@ -1,0 +1,12 @@
+@ECHO OFF
+set filename="Report_template_AM_Latex"
+del %filename%.aux
+del %filename%.bbl
+del %filename%.blg
+del %filename%.out
+del %filename%.log
+del %filename%.synctex.gz
+del %filename%.bcf
+del %filename%.run.xml
+del %filename%-blx.bib
+del %filename%.toc
